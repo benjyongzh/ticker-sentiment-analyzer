@@ -1,0 +1,21 @@
+[project]
+name = "ticker-sentiment-analyzer"
+version = "0.1.0"
+description = "Twitter-based ticker sentiment analyzer"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "httpx",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "openai",
+    "python-dotenv",
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.uv]
